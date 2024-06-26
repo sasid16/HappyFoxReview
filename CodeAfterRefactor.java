@@ -32,7 +32,7 @@ public class CodeAfterRefactor {
 	            driver.quit();
 	        }
 	    }
-                                    //Removal of empty lines
+                                    //Removal of empty lines in the code
 	    public static void login(WebDriver driver) {
 	        driver.findElement(By.id("id_username")).sendKeys("Agent");
 	        driver.findElement(By.id("id_password")).sendKeys("Agent@123");
